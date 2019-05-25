@@ -1,0 +1,11 @@
+{
+    "name": "name-gen",
+    "version": "1.0.0",
+    "license": "MIT",
+    "bin": {
+        "name-gen": "bin/name-gen"
+    },
+    "scripts": {},
+    "devDependencies": {},
+    "dependencies": {}
+}
