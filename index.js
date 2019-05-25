@@ -18,3 +18,8 @@ module.exports = () => {
     console.log('first: ',  args.gender)
     console.log('second: ' , args.race)
 }
+
+//@todo: add help
+//@todo: set defaults to 'any'
+//@todo: add better error handling
+//@todo: pretty format results
