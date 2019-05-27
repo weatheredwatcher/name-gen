@@ -12,6 +12,9 @@ module.exports = () => {
     case 'help':
       require('./help')(args)
       break
+    case 'version':
+      require('./version')
+      break
     default:
       console.error(`"${cmd}" is not a valid command!`)
       break
