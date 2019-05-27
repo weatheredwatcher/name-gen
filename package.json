@@ -6,7 +6,9 @@
         "name-gen": "bin/name-gen"
     },
     "scripts": {},
-    "devDependencies": {},
+    "devDependencies": {
+        "chai": "^4.2.0"
+    },
     "dependencies": {
         "minimist": "^1.2.0"
     }
