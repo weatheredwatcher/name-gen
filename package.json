@@ -1,6 +1,6 @@
 {
     "name": "@weatheredwatcher/name-gen",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "license": "MIT",
     "bin": {
         "name-gen": "bin/name-gen"
