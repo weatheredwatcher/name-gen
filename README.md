@@ -2,4 +2,4 @@
 
 ## Build Instruction:
 
-To build: ```npm install name-gen```
+To install: ```npm i @weatheredwatcher/name-gen```
