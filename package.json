@@ -1,5 +1,5 @@
 {
-    "name": "name-gen",
+    "name": "@weatheredwatcher/name-gen",
     "version": "1.0.0",
     "license": "MIT",
     "bin": {
