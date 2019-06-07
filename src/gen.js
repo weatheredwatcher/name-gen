@@ -8,8 +8,9 @@ module.exports = (args) => {
     const req = https.get(options, (res) => {
         
         res.on('data', (d) => {
-
-                process.stdout.write(d);
+            obj = JSON.parse(d);
+                console.log(obj._sResult);
+                
         });
     }).on('error', (e) => {
         console.error(e);

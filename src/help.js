@@ -7,7 +7,7 @@ const menus = {
       help ............... show help menu for a command`,
   
     gen: `
-      outside today <options>
+      name-gen gen <options>
   
       --race, -r ..... the race to use
       --gender, -g .... the gender to use
