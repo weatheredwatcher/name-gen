@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 const menus = {
     main: `
       name-gen [command] <options>
@@ -13,12 +14,10 @@ const menus = {
       --gender, -g .... the gender to use
 
       Without options, you get random`,
-  }
+  };
   
   module.exports = (args) => {
-    const subCmd = args._[0] === 'help'
-      ? args._[1]
-      : args._[0]
+    const subCmd = args._[0] === 'help' ? args._[1] : args._[0];
   
     console.log(menus[subCmd] || menus.main);
-  }
+  };

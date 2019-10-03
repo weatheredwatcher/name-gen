@@ -1,4 +1,6 @@
-const https = require('https')
+/*jshint esversion: 6 */
+
+const https = require('https');
 
 module.exports = (args) => {
     const race = (args.race ? args.race : 'any');

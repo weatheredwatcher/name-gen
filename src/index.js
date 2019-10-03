@@ -1,27 +1,29 @@
-const minimist = require('minimist')
+/*jshint esversion: 6 */
+
+const minimist = require('minimist');
 module.exports = () => {
 
-    const args = minimist(process.argv.slice(2))
+    const args = minimist(process.argv.slice(2));
 
-    const cmd = args._[0]
+    const cmd = args._[0];
 
   switch (cmd) {
     case 'gen':
-      require('./gen')(args)
-      break
+      require('./gen')(args);
+      break;
     case 'help':
-      require('./help')(args)
-      break
+      require('./help')(args);
+      break;
     case 'version':
-      require('./version')
-      break
+      require('./version');
+      break;
     default:
-      console.error(`"${cmd}" is not a valid command!`)
-      break
+      console.error(`"${cmd}" is not a valid command!`);
+      break;
   }
    
 
-}
+};
 
 
 //@todo: add better error handling
